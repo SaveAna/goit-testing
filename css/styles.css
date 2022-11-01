@@ -59,9 +59,15 @@ img {
   background-color: var(--head-bg-color);
 }
 
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+}
+
 .head-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -79,7 +85,6 @@ img {
 .menu-nav .link:hover,
 .menu-nav .link:focus {
   color: var(--accent-color);
-  /* text-decoration: overline; */
   text-decoration: overline;
 }
 
