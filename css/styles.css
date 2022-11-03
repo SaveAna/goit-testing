@@ -107,16 +107,27 @@ img {
   color: var(--icon-color);
 }
 
+<<<<<<< Updated upstream
 /* <!-- section-animation-start --> */
 .title {
   margin-top: 50px;
   text-align: center;
+=======
+/* <!-- section animation start --> */
+.title {
+  text-align: center;
+  margin-top: 50px;
+  color: #4330d6;
+>>>>>>> Stashed changes
 }
 
 .flex-container {
   margin-top: 50px;
+<<<<<<< Updated upstream
 
   border-radius: 4px;
+=======
+>>>>>>> Stashed changes
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,7 +171,11 @@ img {
   transition-duration: 3000ms;
 }
 
+<<<<<<< Updated upstream
 /* <!-- section-animation-end --> */
+=======
+/* <!-- section animation end --> */
+>>>>>>> Stashed changes
 
 /* <!-- section-box-start --> */
 
