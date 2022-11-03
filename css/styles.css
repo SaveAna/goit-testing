@@ -106,3 +106,29 @@ img {
 .search-link:focus {
   color: var(--icon-color);
 }
+
+/* <!-- section-box-start --> */
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: tomato;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  /*  Задаём значения перехода  */
+  transition-property: background-color, transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+
+/* При ховере меняем значения анимируемых свойств */
+.box:hover {
+  background-color: teal;
+  transform: rotate(180deg);
+}
+
+/* <!-- section-box-end --> */
