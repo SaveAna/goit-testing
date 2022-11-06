@@ -289,4 +289,10 @@ img {
       0% 100%
     );
   }
+
+.new-text {
+  size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: seagreen;
 }
