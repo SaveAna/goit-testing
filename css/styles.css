@@ -298,6 +298,10 @@ img {
   color: seagreen;
 }
 
+.test-section {
+  margin-top: 100px;
+}
+
 .test-title {
   color: #4330d6;
   text-align: center;
