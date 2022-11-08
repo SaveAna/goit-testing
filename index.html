@@ -1,69 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoIt-Testing</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoIt-Testing</title>
 
-  <body>
-    <header class="header">
-      <div class="head-content container">
-        <a class="logo link" href="./index.html"
-          ><span class="accent">Team</span>Logo</a
-        >
-        <nav class="menu-nav">
-          <ul class="list">
-            <li class="item"><a class="link" href="">Main</a></li>
-            <li class="item"><a class="link" href="">About us</a></li>
-            <li class="item"><a class="link" href="">Gallery</a></li>
-            <li class="item"><a class="link" href="">Rewiews</a></li>
-            <li class="item"><a class="link" href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <a class="search-link" href="#">
-          <lable class="search-lable">почати пошук
-            <input class="search-input" type="text" placeholder="">
-              <svg class="search-icon" width="20" height="20">
-                <use href="./images/icons.svg#search"></use>
-              </svg>
-          </lable>
-        </a>
-      </div>
-    </header>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-    <main>
-      <section class="section-hero">
-        <h1 class="hero-title">Я не здамся без бою</h1>
-        <button type="button">В бій</button>
-      </section>
-
-      <section class="test-section">
-        <h2 class="test-title">This is test section</h2>
-        <p class="test-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
-          suscipit a veniam saepe dolorum culpa nemo odit nostrum maiores. Quae
-          atque sit incidunt velit cupiditate accusantium tempora dicta officiis
-          maxime!
-        </p>
-        <button type="button" class="test-button">test button</button>
-        <ul class="test-list">
-          <li><a href="">link one</a></li>
-          <li><a href="">link two</a></li>
-          <li><a href="">link three</a></li>
+<body>
+  <header class="header">
+    <div class="head-content container">
+      <a class="logo link" href="./index.html"><span class="accent">Team</span>Logo</a>
+      <nav class="menu-nav">
+        <ul class="list">
+          <li class="item"><a class="link" href="">Main</a></li>
+          <li class="item"><a class="link" href="">About us</a></li>
+          <li class="item"><a class="link" href="">Gallery</a></li>
+          <li class="item"><a class="link" href="">Rewiews</a></li>
+          <li class="item"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
       <a class="search-link" href="#">
-        <svg class="search-icon" width="20" height="20">
-          <use href="./images/icons.svg#search"></use>
-        </svg>
+        <lable class="search-lable">почати пошук
+          <input class="search-input" type="text" placeholder="">
+          <svg class="search-icon" width="20" height="20">
+            <use href="./images/icons.svg#search"></use>
+          </svg>
+        </lable>
       </a>
     </div>
   </header>
@@ -88,158 +56,147 @@
         <li><a href="">link two</a></li>
         <li><a href="">link three</a></li>
       </ul>
-    </section>
-  </main>
-
-  <!-- section-box-start -->
-
-  <div class="box container"></div>
-
-  <!-- section-box-end -->
-
-  <!-- section animation start -->
-  <h1 class="title">
-    A transition is triggered when hovering over a container
-  </h1>
-
-  <div class="flex-container">
-    <div class="circle">500ms</div>
-    <div class="circle">1500ms</div>
-    <div class="circle">3005ms</div>
-  </div>
-  <!-- section animation end -->
-
-  <!-- section about us -->
-  <section class="about-us">
-    <h2>We are the best champions</h2>
-    <p>Because we are Ukrainians</p>
-  </section>
-  <div>
-    <h2>Testing we are</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sint
-      quis reprehenderit iste pariatur voluptatem cupiditate autem alias!
-      Voluptas, ex voluptatem maxime dolorem accusamus asperiores delectus
-      soluta excepturi nesciunt. Nihil.
-    </p>
-    <h3>test</h3>
-  </div>
-  <div class="anim-container">
-    <p class="word">Animation</p>
-  </div>
-  <div class="wave-box">
-    <div class="wave-text">
-      <span class="first">SeaWaves</span>
-      <span class="second">SeaWaves</span>
-    </div>
-  </div>
-
-
-
-
-
-
-
-  <!-- ===================== Table ==================== -->
-
-  <section>
-
-    <table>
-      <caption>
-        Train schedule
-      </caption>
-      <thead>
-        <tr>
-          <th>Train number</th>
-          <th>Route</th>
-          <th>Travel time</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>433</td>
-          <td>London - Paris</td>
-          <td>5 hours</td>
-        </tr>
-        <tr>
-          <td>701</td>
-          <td>New York - Chicago</td>
-          <td>7 hours</td>
-        </tr>
-        <tr>
-          <td>258</td>
-          <td>Oslo - Warsaw</td>
-          <td>4 hours</td>
-        </tr>
-      </tbody>
-    </table>
-
-  </section>
-
-    <div class="anim-container">
-      <p class="word">Animation</p>
-    </div>
-    <div class="wave-box">
-      <div class="wave-text">
-        <span class="first">SeaWaves</span>
-        <span class="second">SeaWaves</span>
       </div>
-    </div>
-    <section>
-      <div class="conteiner .conteiner__team">
-        <h2>Наша команда</h2>
-        <ul class="team">
-          <li class="team__item">
-            <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300" >
-            <p>Олійник Олександр Олександрович</p>
-            <a class="team_tel" href="tel:+380968749570">+380968749570</a>
-            <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
-          </li>
-        
-          <li class="team__item">
-            <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
-            <p>Олійник Олександр Олександрович</p>
-            <a class="team_tel" href="tel:+380968749570">+380968749570</a>
-            <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
-          </li>
-          <li class="team__item">
-            <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
-            <p>Олійник Олександр Олександрович</p>
-            <a class="team_tel" href="tel:+380968749570">+380968749570</a>
-            <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
-          </li>
-          <li class="team__item">
-            <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
-            <p>Олійник Олександр Олександрович</p>
-            <a class="team_tel" href="tel:+380968749570">+380968749570</a>
-            <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
-          </li>
-          <li class="team__item">
-            <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
-            <p>Олійник Олександр Олександрович</p>
-            <a class="team_tel" href="tel:+380968749570">+380968749570</a>
-            <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
-          </li>
-        </ul>
+      </header>
+
+      <!-- section-box-start -->
+
+      <div class="box container"></div>
+
+      <!-- section-box-end -->
+
+      <!-- section animation start -->
+      <h1 class="title">
+        A transition is triggered when hovering over a container
+      </h1>
+
+      <div class="flex-container">
+        <div class="circle">500ms</div>
+        <div class="circle">1500ms</div>
+        <div class="circle">3005ms</div>
+      </div>
+      <!-- section animation end -->
+
+      <!-- section about us -->
+      <section class="about-us">
+        <h2>We are the best champions</h2>
+        <p>Because we are Ukrainians</p>
+      </section>
+      <div>
+        <h2>Testing we are</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sint
+          quis reprehenderit iste pariatur voluptatem cupiditate autem alias!
+          Voluptas, ex voluptatem maxime dolorem accusamus asperiores delectus
+          soluta excepturi nesciunt. Nihil.
+        </p>
+        <h3>test</h3>
+      </div>
+      <!-- ==================================== -->
+      <div class="container wave-box">
+
+        <div class="anim-container">
+          <p class="word">Animation</p>
+        </div>
+
+        <div class="wave-text">
+          <span class="first">SeaWaves</span>
+          <span class="second">SeaWaves</span>
+        </div>
+
       </div>
 
-    </section>
-    <footer>
-      <section class="conteiner foot">
-        <div >
-          <a href="#">alisa-nykyforova@i.ua</a>
-          <p class="new-text">-Something new-</p>
-          <ul class="footer-item">
-            <li class="footer-linc"><a href="">F</a></li>
-            <li class="footer-linc"><a href="">n</a></li>
-            <li class="footer-linc"><a href=""></a></li>
-            <li class="footer-linc"><a href=""></a></li>
-            <li class="footer-linc"><a href=""></a></li>
+      <!-- ===================== Table ==================== -->
+
+      <section>
+
+        <table>
+          <caption>
+            Train schedule
+          </caption>
+          <thead>
+            <tr>
+              <th>Train number</th>
+              <th>Route</th>
+              <th>Travel time</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>433</td>
+              <td>London - Paris</td>
+              <td>5 hours</td>
+            </tr>
+            <tr>
+              <td>701</td>
+              <td>New York - Chicago</td>
+              <td>7 hours</td>
+            </tr>
+            <tr>
+              <td>258</td>
+              <td>Oslo - Warsaw</td>
+              <td>4 hours</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </section>
+
+      <section>
+        <div class="conteiner .conteiner__team">
+          <h2>Наша команда</h2>
+          <ul class="team">
+            <li class="team__item">
+              <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
+              <p>Олійник Олександр Олександрович</p>
+              <a class="team_tel" href="tel:+380968749570">+380968749570</a>
+              <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
+            </li>
+
+            <li class="team__item">
+              <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
+              <p>Олійник Олександр Олександрович</p>
+              <a class="team_tel" href="tel:+380968749570">+380968749570</a>
+              <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
+            </li>
+            <li class="team__item">
+              <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
+              <p>Олійник Олександр Олександрович</p>
+              <a class="team_tel" href="tel:+380968749570">+380968749570</a>
+              <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
+            </li>
+            <li class="team__item">
+              <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
+              <p>Олійник Олександр Олександрович</p>
+              <a class="team_tel" href="tel:+380968749570">+380968749570</a>
+              <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
+            </li>
+            <li class="team__item">
+              <img src="https://klike.net/uploads/posts/2020-04/1587974541_1.jpg" alt="скажена білка" width="300">
+              <p>Олійник Олександр Олександрович</p>
+              <a class="team_tel" href="tel:+380968749570">+380968749570</a>
+              <a class="team__mail" href="mailto:oo07076891@gmail.com">oo07076891@gmail.com</a>
+            </li>
           </ul>
         </div>
-      </section>
-    </footer>
-  </body>
-</html>
 
+      </section>
+      <footer>
+        <section class="conteiner foot">
+          <div>
+            <a href="#">alisa-nykyforova@i.ua</a>
+            <p class="new-text">-Something new-</p>
+            <ul class="footer-item">
+              <li class="footer-linc"><a href="">F</a></li>
+              <li class="footer-linc"><a href="">n</a></li>
+              <li class="footer-linc"><a href=""></a></li>
+              <li class="footer-linc"><a href=""></a></li>
+              <li class="footer-linc"><a href=""></a></li>
+            </ul>
+          </div>
+        </section>
+      </footer>
+</body>
+
+</html>
