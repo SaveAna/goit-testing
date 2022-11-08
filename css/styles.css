@@ -92,15 +92,15 @@ img {
 }
 
 .search-link {
-  outline: solid 1px red;
+
   position: relative;
 
    display: flex; 
   justify-content: center;
   align-items: center; 
-/* 
+
   width: 30px;
-  height: 30px; */
+  height: 30px; 
 
   border-radius: 50%;
   color: var(--accent-color);
@@ -111,7 +111,7 @@ img {
 }
 
 .search-icon {
-  outline: solid 1px red;
+
   position: absolute;
   right: 15px;
   bottom: 0;
@@ -218,7 +218,7 @@ img {
 
 .anim-container {
   margin: 0;
-  /* display: grid; */
+  display: grid;
   place-items: center;
   overflow: hidden;
 }
@@ -364,7 +364,7 @@ a {
 }
 .container.foot {
   display: block;
-  outline: dashed 1px #050505;
+
   background-color: #03a9f4;
   width: 1800px;
   height: 400px;
