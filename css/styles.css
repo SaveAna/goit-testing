@@ -335,6 +335,10 @@ img {
   color: rgb(47, 47, 220);
 }
 
+.modal-box {
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
 .modal-button {
   margin-top: 10px;
   outline: 1px solid #03a9f4;
