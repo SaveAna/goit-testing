@@ -349,10 +349,17 @@ table caption {
 
 table {
   border-collapse: collapse;
+  color: crimson;
+  margin-bottom: 50px;
+
 }
 
 table th,
 table td {
   padding: 10px;
-  border: 1px solid #2a2a2a;
+  border: 3px solid #4330d6;
+}
+
+table:hover {
+  color: forestgreen;
 }
