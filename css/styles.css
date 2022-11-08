@@ -371,3 +371,27 @@ a {
   margin:0 auto;
 
 }
+
+.conteiner__team {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 15px;
+  background-color: #03a9f4;
+}
+.team {
+  display: flex;
+  list-style: none;
+  background-color: #03a9f4;
+}
+.team .team__item+.team__item {
+margin-left: 45px;
+}
+.team__item {
+  display: flex;
+  flex-direction: column;
+  border: dashed 2px orange;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+}
