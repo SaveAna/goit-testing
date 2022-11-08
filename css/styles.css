@@ -348,6 +348,17 @@ img {
   color: rgb(47, 47, 220);
 }
 
+
+.modal-box {
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+.modal-button {
+  margin-top: 10px;
+  outline: 1px solid #4330d6;
+  border: 4px;
+}
+
 /* footer section */
 .footer-item {
   list-style: none;
@@ -414,3 +425,4 @@ table td {
 table:hover {
   color: forestgreen;
 }
+
