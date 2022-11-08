@@ -334,3 +334,9 @@ img {
   text-decoration: none;
   color: rgb(47, 47, 220);
 }
+
+.modal-button {
+  margin-top: 10px;
+  outline: 1px solid #03a9f4;
+  border: 4px;
+}
