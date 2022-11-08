@@ -353,6 +353,7 @@ img {
   color: rgb(47, 47, 220);
 }
 
+
 /* footer section */
 .footer-item {
  
@@ -394,4 +395,33 @@ margin-left: 45px;
   border-radius: 4px;
   text-align: center;
   box-shadow: 3px 3px red, -1em 0 0.4em olive;
+
+
+/* ============= table ============== */
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+table caption {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  color: crimson;
+  margin-bottom: 50px;
+
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 3px solid #4330d6;
+}
+
+table:hover {
+  color: forestgreen;
+
 }
